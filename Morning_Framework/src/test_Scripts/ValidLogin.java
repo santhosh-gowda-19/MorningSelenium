@@ -19,5 +19,6 @@ public class ValidLogin extends Base_Test
 		fb.setPass(pwd);
 		fb.passBtn();
 		Assert.fail();
+		System.out.println("hello");
 	}
 }
